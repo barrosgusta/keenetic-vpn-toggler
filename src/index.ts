@@ -1,6 +1,13 @@
 import { KeeneticService } from './services/keenetic-service';
 import dotenv from 'dotenv';
 
+//Apple Shortcuts script to toggle VPN
+//https://www.icloud.com/shortcuts/b5ecf5e3adf444869e43084da35a4164
+
+//Need to set the following environment variables:
+//KEENETIC_HOST
+//KEENETIC_USER
+//KEENETIC_PASSWORD
 dotenv.config();
 
 function areEnvironmentVariablesSet(): boolean {
